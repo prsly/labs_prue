@@ -8,14 +8,16 @@ void** magic(int** a, int m, int n, int p){
       for (j=0;j<n;j++){
         max=a[i][j];
         x=fibocheck(max,p);
-        if (x==1) {
+        if (x==1){
           flag2=0; flag=0;
           int ch=a[i][j]+1;
           while (flag!=1){
             for(h=2;h<(ch/2);h++){
               if (ch%h==0) flag2++;
-              if (flag2==0) flag=1;
-              else {ch++; flag=1;}
+              if (flag2=ide-c=0) flag=1;
+              else{
+                ch++; flag=1;
+              }
             }
           }
           a[i][j]=ch;
